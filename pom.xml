@@ -36,11 +36,11 @@
 					<forkCount>3</forkCount>
 					<reuseForks>true</reuseForks>
 					<argLine>-Xmx1024m -XX:MaxPermSize=256m</argLine>
-					<!--
+					
 					<suiteXmlFiles>
 						<suiteXmlFile>src/main/resources/testng.xml</suiteXmlFile>
 					</suiteXmlFiles>
--->
+
 
 				</configuration>
 
@@ -68,13 +68,13 @@
 			<version>4.0.0-alpha-3</version>
 		</dependency>
 
-		<!-- https://mvnrepository.com/artifact/org.testng/testng 
+		<!-- https://mvnrepository.com/artifact/org.testng/testng -->
 		<dependency>
 			<groupId>org.testng</groupId>
 			<artifactId>testng</artifactId>
 			<version>6.14.3</version>
 		</dependency>
--->
+
 		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
